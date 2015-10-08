@@ -1,2 +1,2 @@
 # STM32-MotionSensor
-Motion Sensor code ( using interrupt )
+Simple Code for Motion_Sensor by STM32 ..interrupt have been used.
