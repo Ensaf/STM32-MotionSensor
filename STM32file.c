@@ -10,8 +10,8 @@ void Delay(__IO uint32_t nCount){
 	int main(void)
 	{
 		  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD,ENABLE);
-		  	  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA,ENABLE);
-			  	  RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG,ENABLE);
+                  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA,ENABLE);
+	          RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG,ENABLE);
 
 				    GPIO_InitLed.GPIO_Pin =GPIO_Pin_0 |GPIO_Pin_1 ;
 				      GPIO_InitLed.GPIO_Mode =GPIO_Mode_OUT;
