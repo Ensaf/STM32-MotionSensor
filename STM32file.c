@@ -1,4 +1,4 @@
-this is the Code file for STM-MotionSensor
+//this is the Code file for STM-MotionSensor
 #include "stm32f4xx.h"
 GPIO_InitTypeDef GPIO_InitLed;
 EXTI_InitTypeDef EXTI_InitSensor;
